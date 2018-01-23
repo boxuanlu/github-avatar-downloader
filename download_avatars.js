@@ -56,8 +56,8 @@ if (process.argv.length !== 4) {
 
     result.forEach(function(element) {
       console.log(element.avatar_url);
-      console.log('.avatar/' + element.login + '.jpg');
-      downloadImageByURL(element.avatar_url, 'avatar/' + element.login + '.jpg');
+      //console.log('.avatar/' + element.login + '.jpg');
+      downloadImageByURL(element.avatar_url, 'avatar/' + element.login );
 
 
     })
