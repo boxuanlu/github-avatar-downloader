@@ -47,7 +47,7 @@ function downloadImageByURL(url, filePath) {
 var string = process.argv[2];
 var string2 = process.argv[3];
 if (process.argv.length !== 4) {
-  console.log("error");
+  console.log("error input");
 
 } else {
 
